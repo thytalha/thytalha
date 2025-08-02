@@ -1,9 +1,9 @@
 # Hi, I'm Talha Pasha 👋
 
-💻 I'm a C++ enthusiast and currently learning full-stack development.
-🎮 I love building games like Battleship and Tic-Tac-Toe in the terminal.
-🧱 Also created projects like Brick Breaker, ATM System, Banking System, and Chess Game.
-🚀 Always exploring new tech and improving my skills.
+💻 I'm a C++ enthusiast and currently learning full-stack development.<br>
+🎮 I love building games like Battleship and Tic-Tac-Toe in the terminal.<br>
+🧱 Also created projects like Brick Breaker, ATM System, Banking System, and Chess Game.<br>
+🚀 Always exploring new tech and improving my skills.<br>
 
 ## 🛠️ Technologies I Use
 
@@ -15,15 +15,15 @@
 
 * [🔫 Battleship Game](https://github.com/thytalha/Battleship)
 * [❌ Tic-Tac-Toe](https://github.com/thytalha/Tic-Tac-Toe)
-* [🧱 Brick Breaker]
-* [🏧 ATM System]
-* [🏦 Banking System]
-* [♟️ Chess Game]
+* 🧱 Brick Breaker
+* 🏧 ATM System
+* 🏦 Banking System
+* ♟️ Chess Game
 
 ## 📫 Connect With Me
 
-🐙 GitHub: [github.com/thytalha](https://github.com/thytalha)
-📸 Instagram: [@thytalha](https://instagram.com/thytalha)
-👻 Snapchat: [@thytalha](https://snapchat.com/add/thytalha)
+🐙 GitHub: [github.com/thytalha](https://github.com/thytalha) <br>
+📸 Instagram: [@thytalha](https://instagram.com/thytalha) <br>
+👻 Snapchat: [@thytalha](https://snapchat.com/add/thytalha) <br>
 📱 WhatsApp: [+92 328 8279714](https://wa.me/923288279714)
 
