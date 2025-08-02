@@ -22,8 +22,8 @@
 
 ## 📫 Connect With Me
 
-🐙 GitHub: [github.com/thytalha](https://github.com/thytalha) <br>
-💼 LinkedIn: [linkedin.com/in/thytalha] <br>
+🐙 GitHub: [@thytalha](https://github.com/thytalha) <br>
+💼 LinkedIn: [@thytalha](linkedin.com/in/thytalha) <br>
 📸 Instagram: [@thytalha](https://instagram.com/thytalha) <br>
 👻 Snapchat: [@thytalha](https://snapchat.com/add/thytalha) <br>
 📱 WhatsApp: [+92 328 8179714](https://wa.me/923288279714)
