@@ -7,9 +7,9 @@
 
 ## 🛠️ Technologies I Use
 
-* C++ / Python / JavaScript / HTML / CSS
+* C++ / Python / SFML / JavaScript / HTML / CSS
 * Git & GitHub
-* VS Code / CLion / Terminal
+* VS Code / Visual Studio community 2026
 
 ## 📌 Projects
 
