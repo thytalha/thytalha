@@ -2,7 +2,8 @@
 
 💻 C++ enthusiast and currently learning full-stack development.<br>
 🎮 Love building games like Battleship and Tic-Tac-Toe in the terminal.<br>
-🧱 Also created projects like Brick Breaker Game, Flappy Bird Game, ATM System, Banking System, and Chess Game.<br>
+🔍 Created projects like ATM System and Banking System.<br>
+👾 Created fun Games like Brick Breaker, Flappy Bird, Battleship, Tic Tac Toe and Chess.<br>
 🚀 Always exploring new tech and improving my skills.<br>
 
 ## 🛠️ Technologies I Use
