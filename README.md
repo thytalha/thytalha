@@ -13,8 +13,9 @@
 
 ## 📌 Projects
 
-* [🔫 Battleship Game](https://github.com/thytalha/Battleship)
+* [🚢 Battleship Game](https://github.com/thytalha/Battleship)
 * [❌ Tic-Tac-Toe](https://github.com/thytalha/Tic-Tac-Toe)
+* [🐦 Flappy Bird](https://github.com/thytalha/Flappy_Bird)
 * 🧱 Brick Breaker
 * 🏧 ATM System
 * 🏦 Banking System
