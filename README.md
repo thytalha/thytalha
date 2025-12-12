@@ -18,7 +18,7 @@
 * [🚢 Battleship Game](https://github.com/thytalha/Battleship)
 * [❌ Tic-Tac-Toe](https://github.com/thytalha/Tic-Tac-Toe)
 * [🐦 Flappy Bird](https://github.com/thytalha/Flappy-Bird)
-* 🧱 Brick Breaker
+* [🧱 Brick Breaker](https://github.com/thytalha/Brick-Breaker)
 * 🏧 ATM System
 * 🏦 Banking System
 * ♟️ Chess Game
