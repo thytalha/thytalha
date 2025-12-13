@@ -19,8 +19,7 @@
 * [❌ Tic-Tac-Toe](https://github.com/thytalha/Tic-Tac-Toe)
 * [🐦 Flappy Bird](https://github.com/thytalha/Flappy-Bird)
 * [🧱 Brick Breaker](https://github.com/thytalha/Brick-Breaker)
-* 🏧 ATM System
-* 🏦 Banking System
+* 🏦 ATM System
 * ♟️ Chess Game
 
 ## 📫 Connect With Me
