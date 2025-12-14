@@ -71,18 +71,11 @@
 
 ## 📊 GitHub Analytics
 
-<!-- <div align="center" style="width: 100%; display: flex; justify-content: space-between; align-items: center; background-color: red">
-  <img width="39.25%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Annus1212&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=86400"/>
-  <img width="61.25%" src="https://streak-stats.demolab.com/?user=Annus1212&theme=tokyonight&hide_border=true&date_format=M%20j" alt="GitHub Streak" />
-  <img width="59.25%" src="https://github-readme-stats.vercel.app/api?username=Annus1212&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400"/>
-</div>  -->
-
 <div align="center" style="width: 100%; display: flex; justify-content: space-between; align-items: center; background-color: red">
-
-  <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thytalha&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=86400"/>
- <img width="49%" src="https://github-readme-stats.vercel.app/api?username=thytalha&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400"/>
-  
-</div> 
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thytalha&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=86400"/>
+  <br>
+  <img width="55%" src="https://github-readme-stats.vercel.app/api?username=thytalha&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400"/>
+</div>
 
 <!-- Alternative GitHub Activity Graph -->
 <div align="center">
