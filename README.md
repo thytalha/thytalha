@@ -64,6 +64,7 @@
 | [❌ **Tic Tac Toe**](https://github.com/thytalha/Tic-Tac-Toe) | Classic 2‑player Tic‑Tac‑Toe in the terminal, built in C++ with clean input handling. |
 | [🐦 **Flappy Bird**](https://github.com/thytalha/Flappy-Bird) | Flappy Bird remake in C++ & SFML with menus, difficulty modes, music, and leaderboard. |
 | [🧱 **Brick Breaker**](https://github.com/thytalha/Brick-Breaker) | Console Brick Breaker using Win32 GDI: paddle, ball physics, colored bricks, scoring. |
+| [🌦️ **Weather App**](https://github.com/thytalha/Weather-App) | A lightweight weather app that fetches and displays current weather data in a simple interface.|
 | 🏦 **ATM System** | Console simulation of ATM operations: pin, balance check, deposits, withdrawals, mini‑statement. |
 | ♟️ **Chess Game** | Terminal chess project focused on board logic, piece movement rules, and turn management. |
 
