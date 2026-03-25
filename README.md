@@ -72,10 +72,10 @@
 
 ## 📊 GitHub Analytics
 
-<div align="center" style="width: 100%; display: flex; justify-content: space-between; align-items: center; background-color: red"> <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thytalha&layout=compact&langs_count=8&theme=shades-of-purple&hide_border=false&cache_seconds=86400"/> </div>
-
-<div align="center"> <img src="https://nirzak-streak-stats.vercel.app/?user=thytalha&theme=shades-of-purple&hide_border=false"/>
-<img width="55%" src="https://github-readme-stats.vercel.app/api?username=thytalha&show_icons=true&theme=shades-of-purple&include_all_commits=true&count_private=true&hide_border=false&cache_seconds=86400"/> </div>
+<div> <img width="44%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thytalha&layout=compact&langs_count=8&theme=shades-of-purple&hide_border=false&cache_seconds=86400"/> 
+<img width="54%" src="https://nirzak-streak-stats.vercel.app/?user=thytalha&theme=shades-of-purple&hide_border=false"/> </div
+                                                                                                                >
+<div align="center" style="width: 100%; display: flex; justify-content: space-between; align-items: center; background-color: red"> <img width="100%" src="https://github-readme-stats.vercel.app/api?username=thytalha&show_icons=true&theme=shades-of-purple&include_all_commits=true&count_private=true&hide_border=false&cache_seconds=86400"/> </div>
 
 <div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=2d2b55&color=fad000&line=b362ff&point=fad000&hide_border=false&area=true" alt="GitHub Activity Graph" /> </div>
 
