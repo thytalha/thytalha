@@ -79,9 +79,7 @@
 
 <div align="center"> <img  width="75%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&theme=shades-of-purple&include_all_commits=true&count_private=true" /> </div>
 
-<div align="center"> 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=2d2b55&color=fad000&line=b362ff&point=fad000&hide_border=false&area=true&v=1" alt="GitHub Activity Graph" /> 
-</div>
+<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=2d2b55&color=fad000&line=b362ff&point=fad000&hide_border=false&area=true&v=1" alt="GitHub Activity Graph" /> </div>
 
 ## 🌐 Connect With Me
 
