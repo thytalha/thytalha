@@ -74,7 +74,7 @@
 
 <div> 
   <img width="44%" src="https://my-github-stats-eta-wine.vercel.app/api/top-langs/?username=thytalha&layout=compact&theme=shades-of-purple" alt="Top Languages for thytalha"/> 
-  <img width="54%" src="https://streak-stats.demolab.com/?user=thytalha&theme=shades-of-purple&hide_border=false"/> 
+  <img width="54%" src="https://streak-stats.demolab.com/?user=thytalha&theme=shades-of-purple&hide_border=false&date_format=M%20j%5B%2C%20Y%5D&cache=true"/>
 </div>
 
 <div align="center"> <img  width="75%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&theme=shades-of-purple&include_all_commits=true&count_private=true" /> </div>
