@@ -73,7 +73,7 @@
 ## 📊 GitHub Analytics
 
 <div> 
-  <img width="44%" src="https://my-github-stats-eta-wine.vercel.app/api/top-langs/?username=thytalha&layout=compact&theme=shades-of-purple" alt="Top Languages for thytalha"/> 
+  <img width="44%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thytalha&layout=compact&theme=shades-of-purple"/> 
   <img width="54%" src="https://streak-stats.demolab.com/?user=thytalha&theme=shades-of-purple&hide_border=false&date_format=M%20j%5B%2C%20Y%5D&cache=true"/>
 </div>
 
