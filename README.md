@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Berlin+Sans+FB&size=40&pause=1000&color=117A65&center=true&vCenter=true&random=false&width=800&lines=Hi+there!+I'm+Talha+%F0%9F%91%8B;Developer+in+progress;Logic+Lover+%26+Creative+Builder;Turning+Concepts+into+Code" alt="Typing SVG" />
+  <h1>Hi there! I'm Talha Pasha 👋</h1>
 </div>
 
 <div align="center">
@@ -47,6 +47,7 @@
 
   <!-- Graphics / Game Dev -->
   <img src="https://img.shields.io/badge/SFML-Graphics%20Library-5C6BC0?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/WinForms-UI%20Framework-512BD4?style=for-the-badge&logo=dotnet" />
   <br>
 
   <!-- IDEs -->
