@@ -61,12 +61,12 @@
   
 | Project | What it is |
 |--------|------------|
-| [🚢 **Battleship Game**](https://github.com/thytalha/Battleship) | C++ console Battleship: 2‑player grid, ship placement with coordinates, turn‑based attacks. |
-| [❌ **Tic Tac Toe**](https://github.com/thytalha/Tic-Tac-Toe) | Classic 2‑player Tic‑Tac‑Toe in the terminal, built in C++ with clean input handling. |
+| [🩸 **Blood Bank MS**](https://github.com/thytalha/Blood-Bank) | A repository facilitating life-saving blood donations through donor-patient connectivity.|
+| [🌦️ **Weather App**](https://github.com/thytalha/Weather-App) | A lightweight weather app that fetches and displays current weather data in a simple interface.|
 | [🐦 **Flappy Bird**](https://github.com/thytalha/Flappy-Bird) | Flappy Bird remake in C++ & SFML with menus, difficulty modes, music, and leaderboard. |
 | [🧱 **Brick Breaker**](https://github.com/thytalha/Brick-Breaker) | Console Brick Breaker using Win32 GDI: paddle, ball physics, colored bricks, scoring. |
-| [🌦️ **Weather App**](https://github.com/thytalha/Weather-App) | A lightweight weather app that fetches and displays current weather data in a simple interface.|
-| [🩸 **Blood Bank MS**](https://github.com/thytalha/Blood-Bank) | A repository facilitating life-saving blood donations through donor-patient connectivity.|
+| [🚢 **Battleship Game**](https://github.com/thytalha/Battleship) | C++ console Battleship: 2‑player grid, ship placement with coordinates, turn‑based attacks. |
+| [❌ **Tic Tac Toe**](https://github.com/thytalha/Tic-Tac-Toe) | Classic 2‑player Tic‑Tac‑Toe in the terminal, built in C++ with clean input handling. |
 | 🏦 **ATM System** | Console simulation of ATM operations: pin, balance check, deposits, withdrawals, mini‑statement. |
 | ♟️ **Chess Game** | Terminal chess project focused on board logic, piece movement rules, and turn management. |
 
