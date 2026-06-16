@@ -67,7 +67,7 @@
 | [🧱 **Brick Breaker**](https://github.com/thytalha/Brick-Breaker) | Console Brick Breaker using Win32 GDI: paddle, ball physics, colored bricks, scoring. |
 | [🚢 **Battleship Game**](https://github.com/thytalha/Battleship) | C++ console Battleship: 2‑player grid, ship placement with coordinates, turn‑based attacks. |
 | [❌ **Tic Tac Toe**](https://github.com/thytalha/Tic-Tac-Toe) | Classic 2‑player Tic‑Tac‑Toe in the terminal, built in C++ with clean input handling. |
-| 🏦 **ATM System** | Console simulation of ATM operations: pin, balance check, deposits, withdrawals, mini‑statement. |
+| 🏦 **Banking System** | Desktop banking and cash flow management system built with C++ and WinForms. |
 | ♟️ **Chess Game** | Terminal chess project focused on board logic, piece movement rules, and turn management. |
 
 </div>
