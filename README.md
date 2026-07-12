@@ -77,7 +77,7 @@
 <div> 
 <img width="44%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=thytalha&layout=compact&theme=shades-of-purple&langs_count=10" alt="Top Languages for thytalha"/>
   
-<img width="54%" src="https://github-readme-stats.shion.dev/api?username=thytalha&theme=shades-of-purple&hide_border=false&show_icons=true" />
+<img width="54%" src="https://github-stats-extended.vercel.app/api?username=thytalha&theme=shades-of-purple&hide_border=false&show_icons=true" />
 
 </div>
 
