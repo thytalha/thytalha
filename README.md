@@ -9,52 +9,37 @@
 <p align="center">
 
   <!-- Roles / Identity -->
-  <img src="https://img.shields.io/badge/C%2B%2B-ENTHUSIAST-1565C0?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelColor=0D47A1" />
-  <img src="https://img.shields.io/badge/FULL--STACK-LEARNER-2E7D32?style=for-the-badge&logo=code&logoColor=white&labelColor=1B5E20" />
+  <img src="https://img.shields.io/badge/C%2B%2B-ENTHUSIAST-2e2e2e?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelColor=151515" />
+  <img src="https://img.shields.io/badge/FULL_STACK-LEARNER-2e2e2e?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=151515" />
   <br>
 
   <!-- Games -->
-  <img src="https://img.shields.io/badge/Terminal%20Games-Battleship%20%7C%20Tic--Tac--Toe%20%7C%20Chess-AB47BC?style=for-the-badge&labelColor=4A148C" />
-  <img src="https://img.shields.io/badge/Arcade%20Games-Brick%20Breaker%20%7C%20Flappy%20Bird-00B0FF?style=for-the-badge&labelColor=01579B" />
+  <img src="https://img.shields.io/badge/Terminal_Games-Battleship%20%7C%20Tic--Tac--Toe%20%7C%20Chess-2e2e2e?style=for-the-badge&logo=powershell&logoColor=5391FE&labelColor=151515" />
+  <img src="https://img.shields.io/badge/Arcade_Games-Brick_Breaker%20%7C%20Flappy_Bird-2e2e2e?style=for-the-badge&logo=nintendoswitch&logoColor=E60012&labelColor=151515" />
   <br>
 
   <!-- Systems -->
-  <img src="https://img.shields.io/badge/Console%20Projects-ATM%20System%20%7C%20Banking%20System%20%7C%20Weather%20App-FF7043?style=for-the-badge&labelColor=BF360C" />
+  <img src="https://img.shields.io/badge/Console_Projects-ATM%20%7C%20Banking%20%7C%20Weather-2e2e2e?style=for-the-badge&logo=windows&logoColor=0078D6&labelColor=151515" />
   <br>
 
   <!-- Mindset -->
-  <img src="https://img.shields.io/badge/Always%20Learning-Exploring%20New%20Tech%20%26%20Improving%20Skills-FFCA28?style=for-the-badge&labelColor=F57F17" />
+  <img src="https://img.shields.io/badge/Always_Learning-Exploring%20New%20Tech-2e2e2e?style=for-the-badge&logo=rocket&logoColor=white&labelColor=151515" />
 
 </p>
 
-## 💻 Tech Stack
+## 💻 Tech Stack & Tools
 
-<p align="center">
-
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<div align="center">
   <br>
-
-  <!-- Tools -->
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git%20Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-24292E?style=for-the-badge&logo=github&logoColor=white" />
-  <br>
-
-  <!-- Graphics / Game Dev -->
-  <img src="https://img.shields.io/badge/SFML-Graphics%20Library-5C6BC0?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/WinForms-UI%20Framework-512BD4?style=for-the-badge&logo=dotnet" />
-  <br>
-
-  <!-- IDEs -->
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-  <img src="https://img.shields.io/badge/Visual%20Studio%20Community-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" />
-
-</p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cpp,python,js,html,css,git,github,bash,vscode,visualstudio,dotnet&theme=dark" alt="Skill Icons"/>
+  </a>
+  <br><br>
+  
+  <!-- Additional Libraries -->
+  <img src="https://img.shields.io/badge/SFML-Graphics%20Library-2e2e2e?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelColor=151515" />
+  <img src="https://img.shields.io/badge/WinForms-UI%20Framework-2e2e2e?style=for-the-badge&logo=dotnet&logoColor=512BD4&labelColor=151515" />
+</div>
 
 ## 🏆 Featured Projects
 <div align="center">
