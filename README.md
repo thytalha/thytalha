@@ -34,11 +34,9 @@
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=cpp,python,js,html,css,git,github,bash,vscode,visualstudio,dotnet&theme=dark" alt="Skill Icons"/>
   </a>
+  <img src="https://img.shields.io/badge/SFML-242938?style=for-the-badge&logo=c%2B%2B&logoColor=white" height="48" />
+  <img src="https://img.shields.io/badge/WinForms-242938?style=for-the-badge&logo=windows&logoColor=0078D6" height="48" />
   <br><br>
-  
-  <!-- Additional Libraries -->
-  <img src="https://img.shields.io/badge/SFML-Graphics%20Library-2e2e2e?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelColor=151515" />
-  <img src="https://img.shields.io/badge/WinForms-UI%20Framework-2e2e2e?style=for-the-badge&logo=dotnet&logoColor=512BD4&labelColor=151515" />
 </div>
 
 ## 🏆 Featured Projects
