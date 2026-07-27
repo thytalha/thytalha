@@ -34,8 +34,8 @@
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=cpp,python,js,html,css,git,github,bash,vscode,visualstudio,dotnet&theme=dark" alt="Skill Icons"/>
   </a>
-  <img src="https://img.shields.io/badge/SFML-242938?style=for-the-badge&logo=c%2B%2B&logoColor=white" height="48" />
-  <img src="https://img.shields.io/badge/WinForms-242938?style=for-the-badge&logo=windows&logoColor=0078D6" height="48" />
+  <img src="assets/sfml.svg" height="48" alt="SFML" />
+  <img src="assets/winforms.svg" height="48" alt="WinForms" />
   <br><br>
 </div>
 
