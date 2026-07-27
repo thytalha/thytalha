@@ -31,12 +31,11 @@
 
 <div align="center">
   <br>
-  <span><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=c,cpp,python,js,html,css,git,github,bash,vim,sublime,mysql,tailwind,vscode,visualstudio,dotnet,netlify,vercel,figma&theme=dark" alt="Skill Icons"/></a></span>&nbsp;
-  <img src="assets/sfml.svg" height="48" alt="SFML" />&nbsp;
-  <img src="assets/winforms.svg" height="48" alt="WinForms" />&nbsp;
-  <img src="assets/notepad.svg" height="48" alt="Notepad++" />&nbsp;
-  <img src="assets/canva.svg" height="48" alt="Canva" />&nbsp;
-  <img src="assets/unsplash.svg" height="48" alt="Unsplash" />
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=c,cpp,python,js,html,css,git,github&theme=dark" alt="Skill Icons"/></a>
+  <br><br>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=bash,vim,sublime,mysql,tailwind,vscode,visualstudio,dotnet&theme=dark" alt="Skill Icons"/></a>
+  <br><br>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=netlify,vercel,figma&theme=dark" alt="Skill Icons"/></a>&nbsp;&nbsp;<img src="assets/sfml.svg" height="48" alt="SFML" />&nbsp;&nbsp;<img src="assets/winforms.svg" height="48" alt="WinForms" />&nbsp;&nbsp;<img src="assets/notepad.svg" height="48" alt="Notepad++" />&nbsp;&nbsp;<img src="assets/canva.svg" height="48" alt="Canva" />&nbsp;&nbsp;<img src="assets/unsplash.svg" height="48" alt="Unsplash" />
   <br><br>
 </div>
 
