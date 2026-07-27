@@ -31,9 +31,10 @@
 
 <div align="center">
   <br>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=cpp,python,js,html,css,git,github,bash,vscode,visualstudio,dotnet,netlify,vercel,figma&theme=dark" alt="Skill Icons"/></a>&nbsp;&nbsp;
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=c,cpp,python,js,html,css,git,github,bash,vim,sublime,mysql,tailwind,vscode,visualstudio,dotnet,netlify,vercel,figma&theme=dark" alt="Skill Icons"/></a>&nbsp;&nbsp;
   <img src="assets/sfml.svg" height="48" alt="SFML" />&nbsp;&nbsp;
   <img src="assets/winforms.svg" height="48" alt="WinForms" />&nbsp;&nbsp;
+  <img src="assets/notepad.svg" height="48" alt="Notepad++" />&nbsp;&nbsp;
   <img src="assets/canva.svg" height="48" alt="Canva" />&nbsp;&nbsp;
   <img src="assets/unsplash.svg" height="48" alt="Unsplash" />
   <br><br>
