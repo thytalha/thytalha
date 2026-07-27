@@ -1,4 +1,6 @@
 <svg width="48" height="48" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="256" height="256" rx="60" fill="#242938" />
-  <text x="128" y="135" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Unsplash</text>
+  <svg x="48" y="48" width="160" height="160" viewBox="0 0 24 24">
+    <path fill="#ffffff" d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
+  </svg>
 </svg>
