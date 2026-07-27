@@ -7,24 +7,22 @@
 </div>
 
 <p align="center">
-
   <!-- Roles / Identity -->
-  <img src="https://img.shields.io/badge/C%2B%2B-ENTHUSIAST-2e2e2e?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelColor=151515" />
-  <img src="https://img.shields.io/badge/FULL_STACK-LEARNER-2e2e2e?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=151515" />
+  <img src="https://img.shields.io/badge/C%2B%2B-ENTHUSIAST-242938?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelColor=00599C" />
+  <img src="https://img.shields.io/badge/FULL_STACK-LEARNER-242938?style=for-the-badge&logo=react&logoColor=black&labelColor=61DAFB" />
   <br>
 
   <!-- Games -->
-  <img src="https://img.shields.io/badge/Terminal_Games-Battleship%20%7C%20Tic--Tac--Toe%20%7C%20Chess-2e2e2e?style=for-the-badge&logo=powershell&logoColor=5391FE&labelColor=151515" />
-  <img src="https://img.shields.io/badge/Arcade_Games-Brick_Breaker%20%7C%20Flappy_Bird-2e2e2e?style=for-the-badge&logo=nintendoswitch&logoColor=E60012&labelColor=151515" />
+  <img src="https://img.shields.io/badge/Terminal_Games-Battleship%20%7C%20Tic--Tac--Toe%20%7C%20Chess-242938?style=for-the-badge&logo=powershell&logoColor=white&labelColor=5391FE" />
+  <img src="https://img.shields.io/badge/Arcade_Games-Brick_Breaker%20%7C%20Flappy_Bird-242938?style=for-the-badge&logo=nintendoswitch&logoColor=white&labelColor=E60012" />
   <br>
 
   <!-- Systems -->
-  <img src="https://img.shields.io/badge/Console_Projects-ATM%20%7C%20Banking%20%7C%20Weather-2e2e2e?style=for-the-badge&logo=windows&logoColor=0078D6&labelColor=151515" />
+  <img src="https://img.shields.io/badge/Console_Projects-ATM%20%7C%20Banking%20%7C%20Weather-242938?style=for-the-badge&logo=windows11&logoColor=white&labelColor=0078D4" />
   <br>
 
   <!-- Mindset -->
-  <img src="https://img.shields.io/badge/Always_Learning-Exploring%20New%20Tech-2e2e2e?style=for-the-badge&logo=rocket&logoColor=white&labelColor=151515" />
-
+  <img src="https://img.shields.io/badge/Always_Learning-Exploring%20New%20Tech-242938?style=for-the-badge&logo=starship&logoColor=white&labelColor=DD0B78" />
 </p>
 
 ## 💻 Tech Stack & Tools
