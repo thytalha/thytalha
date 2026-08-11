@@ -54,9 +54,9 @@ Repo → **Actions** tab → enable workflows if prompted, then run each one via
 
 | workflow | produces | lands in |
 |---|---|---|
-| **Metrics** | 3D isometric calendar, coding habits, language mix | `assets/metrics.*.svg` on `main` |
+| **Metrics** | 3D isometric calendar, language mix, achievements | `assets/metrics.*.svg` on `main` |
 | **Snake** | snake eating your contribution graph | the `output` branch |
-| **Radar** | both spider charts | `assets/radar*.svg` on `main` |
+| **Charts and cards** | both spider charts, stat card, repo cards | `assets/radar*.svg`, `assets/card-*.svg` on `main` |
 
 First run takes a couple of minutes. After that they're on a schedule (metrics every 6h,
 snake every 12h, radar daily).
@@ -121,6 +121,29 @@ Worth knowing:
 If the source has an alpha channel, it's treated as a subject cutout: nothing is drawn
 outside it, and `--equalize` measures only the subject rather than a huge empty
 background. `jacket.png` already has one, which is why the orange backdrop vanishes.
+
+### The stat and repo cards
+
+`scripts/cards.py` generates these into your own repo, on purpose. The usual choices —
+`github-readme-stats`, `github-profile-trophy`, `streak-stats` — are shared public
+instances, and when they fall over your profile shows broken images. At the time this
+was set up they were returning 503, 402 (quota exhausted) and intermittent timeouts
+respectively. A file in your repo has none of those failure modes.
+
+```powershell
+python scripts\cards.py --user gargibhardwaj24 --out assets
+```
+
+- **Which repos get a card** is `assets/projects.json`. Stars, forks and language are
+  fetched live on every run; the `description` there overrides the repo's own GitHub
+  description, which is useful since none of these repos have one set. Setting them on
+  GitHub too is worth doing — it helps anyone browsing your repo list, and then you can
+  delete the overrides.
+- **The contribution and streak tiles need a token**, because they come from the GraphQL
+  API. The workflow passes `METRICS_TOKEN` for this. Run it locally without one and the
+  card still renders, just with three tiles instead of six.
+- Star and fork counts are the live numbers, so the cards genuinely track reality — they
+  just do it on a daily schedule rather than on every page view.
 
 ### The radar
 
