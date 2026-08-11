@@ -150,21 +150,33 @@ def circle_falloff(x, y, cols, rows, feather=0.06):
 # svg builders
 # --------------------------------------------------------------------------- #
 
-SWEEP_CSS = """
-@keyframes dp {{ 0%,100% {{ opacity: .45 }} 50% {{ opacity: 1 }} }}
-.d {{ animation: dp {dur}s ease-in-out infinite }}
-{delays}
-"""
+def svg_header(w, h, rows, opts):
+    css = []
 
+    if opts.animate:
+        # slow shimmer sweeping across the columns, staggered by lane
+        css.append("@keyframes dp{0%,100%{opacity:.45}50%{opacity:1}}")
+        css.append(f".d{{animation:dp {opts.duration}s ease-in-out infinite}}")
+        css += [f".l{i}{{animation-delay:{i / opts.lanes * opts.duration:.2f}s}}"
+                for i in range(opts.lanes)]
 
-def svg_header(w, h, pad, bg, animate, lanes, dur):
-    style = ""
-    if animate:
-        delays = "\n".join(
-            f".l{i} {{ animation-delay: {i / lanes * dur:.2f}s }}" for i in range(lanes)
-        )
-        style = "<style>%s</style>" % SWEEP_CSS.format(dur=dur, delays=delays)
-    bgrect = f'<rect width="100%" height="100%" fill="{bg}"/>' if bg else ""
+    if opts.reveal:
+        # Row-by-row load-in. The animation goes on a <g> wrapping each row
+        # rather than on the dots themselves: group opacity MULTIPLIES with the
+        # children's own opacity, so binary mode keeps its per-glyph tone
+        # instead of having it overwritten, and it is one class per row rather
+        # than one per dot.
+        step = opts.reveal_time / max(rows - 1, 1)
+        css.append("@keyframes rv{from{opacity:0}to{opacity:1}}")
+        css.append(f".rw{{animation:rv {opts.reveal_fade}s ease-out both}}")
+        css += [
+            f".r{y}{{animation-delay:{(rows - 1 - y if opts.reveal_dir == 'up' else y) * step:.3f}s}}"
+            for y in range(rows)
+        ]
+
+    style = f"<style>{''.join(css)}</style>" if css else ""
+    bgrect = f'<rect width="100%" height="100%" fill="{opts.bg}"/>' if opts.bg else ""
+    pad = opts.pad
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" '
         f'viewBox="0 0 {w + 2 * pad} {h + 2 * pad}" '
@@ -181,6 +193,7 @@ def build_dots(cols, rows, lum, rgb, theme, opts):
     lanes = opts.lanes
     out = []
     for y in range(rows):
+        row = []
         for x in range(cols):
             v = lum[y][x]
             if opts.invert:
@@ -200,9 +213,15 @@ def build_dots(cols, rows, lum, rgb, theme, opts):
             else:
                 fill = fg if v > 0.42 else dim
             cls = f' class="d l{x % lanes}"' if opts.animate else ""
-            out.append(
+            row.append(
                 f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{r:.2f}" fill="{fill}"{cls}/>'
             )
+        if not row:
+            continue
+        if opts.reveal:
+            out.append(f'<g class="rw r{y}">{"".join(row)}</g>')
+        else:
+            out += row
     return "".join(out), cols * cell, rows * cell
 
 
@@ -215,6 +234,7 @@ def build_binary(cols, rows, lum, rgb, theme, opts):
         f'font-size="{cell * 0.92:.2f}" text-anchor="middle">'
     ]
     for y in range(rows):
+        row = []
         for x in range(cols):
             v = lum[y][x]
             if opts.invert:
@@ -234,10 +254,16 @@ def build_binary(cols, rows, lum, rgb, theme, opts):
                 fill = fg if v > 0.42 else dim
             cls = f' class="d l{x % lanes}"' if opts.animate else ""
             op = f' opacity="{0.25 + 0.75 * v:.2f}"'
-            out.append(
+            row.append(
                 f'<text x="{x * cell + cell / 2:.1f}" y="{y * cell + cell * 0.82:.1f}" '
                 f'fill="{fill}"{op}{cls}>{bit}</text>'
             )
+        if not row:
+            continue
+        if opts.reveal:
+            out.append(f'<g class="rw r{y}">{"".join(row)}</g>')
+        else:
+            out += row
     out.append("</g>")
     return "".join(out), cols * cell, rows * cell
 
@@ -326,6 +352,14 @@ def main(argv=None):
                    help="add a slow shimmer sweeping across the columns")
     p.add_argument("--lanes", type=int, default=14, help="shimmer stagger groups")
     p.add_argument("--duration", type=float, default=4.0, help="shimmer seconds")
+    p.add_argument("--reveal", action="store_true",
+                   help="draw the image in row by row on load, like a slow scan")
+    p.add_argument("--reveal-time", type=float, default=2.5, metavar="SEC",
+                   help="how long the full top-to-bottom sweep takes (default 2.5)")
+    p.add_argument("--reveal-fade", type=float, default=0.45, metavar="SEC",
+                   help="how long one row takes to fade in (default 0.45)")
+    p.add_argument("--reveal-dir", choices=("down", "up"), default="down",
+                   help="sweep direction (default down)")
     p.add_argument("--pad", type=float, default=8.0)
     p.add_argument("--bg", default="", help="optional background colour")
     args = p.parse_args(argv)
@@ -361,11 +395,7 @@ def main(argv=None):
     themes = ("dark",) if args.color else ("dark", "light")
     for theme in themes:
         body, w, h = builder(cols, rows, lum, rgb, theme, args)
-        svg = (
-            svg_header(w, h, args.pad, args.bg, args.animate, args.lanes,
-                       args.duration)
-            + body + "</g></svg>"
-        )
+        svg = svg_header(w, h, rows, args) + body + "</g></svg>"
         stem = args.out.name if args.color else f"{args.out.name}-{theme}"
         dest = args.out.with_name(f"{stem}.svg")
         dest.write_text(svg, encoding="utf-8")

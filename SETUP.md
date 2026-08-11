@@ -73,7 +73,7 @@ snake every 12h, radar daily).
 The current one was made with:
 
 ```powershell
-python scripts\dotify.py assets\jacket.png -o assets\portrait --cols 100 --equalize --detail 0.5 --color
+python scripts\dotify.py assets\jacket.png -o assets\portrait --cols 100 --equalize --detail 0.5 --color --reveal
 ```
 
 Other looks from the same source:
@@ -103,9 +103,14 @@ Worth knowing:
   `-dark`/`-light` pair — the README references it directly.
 - `--cols` is the whole quality/size dial. 60 is chunky and abstract, 100 is what's in
   use now (325 KB), 130 is more detailed but pushes past 500 KB.
+- `--reveal` draws the portrait in row by row when the page loads, like a slow scan.
+  `--reveal-time` is the full top-to-bottom sweep (2.5s), `--reveal-fade` is how long
+  one row takes to appear (0.45s — this is what makes it a soft scan rather than a hard
+  line), and `--reveal-dir up` sweeps the other way. It plays once per image load, so
+  open `preview.html` and use the **replay the load-in** button to rewatch it.
 - `--animate` adds a slow shimmer sweeping across the columns. It suits the green
   monochrome version; on the colour one it reads as vertical banding across the face,
-  which is why it's off here.
+  which is why it's off here. It composes with `--reveal` if you want both.
 - `--square` crops to 1:1, with `--focus X,Y` to say which point should end up centred
   (`0.55,0.45` for a face sitting right of and above the middle). `jacket.png` was
   already square, so it isn't used.
