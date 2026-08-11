@@ -38,10 +38,10 @@ Hi, I'm **Gargi Bhardwaj**. I build things that sit somewhere between machine le
 and I solve problems for fun when neither of those is cooperating.
 
 <!-- TODO: the last two are placeholders - write them or delete the lines -->
-- Currently building **[Sage](https://github.com/gargibhardwaj24/Sage)** and **[Socrates](https://github.com/gargibhardwaj24/Socrates)**
+- Currently building **[Sage](https://github.com/gargibhardwaj24/Sage)** and **[Spyder](https://github.com/gargibhardwaj24/spyder_frontend)**
 - Portfolio: **[dossier-iota-one.vercel.app](https://dossier-iota-one.vercel.app)**
-- Learning **YOUR CURRENT LEARNING**
-- Fun fact: **YOUR FUN FACT**
+- Learning **React + Machine Learning**
+- Fun fact: **I started coding seriously because I wanted to build things I wished existed.**
 
 <br>
 
@@ -49,7 +49,7 @@ and I solve problems for fun when neither of those is cooperating.
 
 ## `~/` toolbox
 
-<img src="https://skillicons.dev/icons?i=py,cpp,js,ts,react,nextjs,nodejs,tailwind,flask,django,pytorch,tensorflow,sklearn,pandas,postgres,mongodb,git,github,docker,linux,vscode&perline=11" alt="tech stack">
+<img src="https://skillicons.dev/icons?i=cpp,js,ts,react,nextjs,nodejs,tailwind,postgres,mongodb,jwt,oauth,git,github,vscode,html,css&perline=11" alt="tech stack">
 
 </div>
 
