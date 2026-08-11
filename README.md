@@ -37,9 +37,10 @@ $ cat about.txt
 Hi, I'm **Gargi Bhardwaj**. I build things that sit somewhere between machine learning and the web,
 and I solve problems for fun when neither of those is cooperating.
 
-- Currently working on **YOUR CURRENT PROJECT**
+<!-- TODO: the last two are placeholders - write them or delete the lines -->
+- Currently building **[Sage](https://github.com/gargibhardwaj24/Sage)** and **[Socrates](https://github.com/gargibhardwaj24/Socrates)**
+- Portfolio: **[dossier-iota-one.vercel.app](https://dossier-iota-one.vercel.app)**
 - Learning **YOUR CURRENT LEARNING**
-- Ask me about **ML, Python, or anything algorithmic**
 - Fun fact: **YOUR FUN FACT**
 
 <br>
@@ -134,25 +135,25 @@ and I solve problems for fun when neither of those is cooperating.
 <table>
 <tr>
 <td width="50%">
-  <a href="https://github.com/gargibhardwaj24/PROJECT_ONE">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gargibhardwaj24&repo=PROJECT_ONE&hide_border=true&title_color=39d353&icon_color=39d353&text_color=c9d1d9&bg_color=0d1117" alt="PROJECT_ONE">
+  <a href="https://github.com/gargibhardwaj24/dossier">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gargibhardwaj24&repo=dossier&hide_border=true&title_color=39d353&icon_color=39d353&text_color=c9d1d9&bg_color=0d1117" alt="dossier">
   </a>
 </td>
 <td width="50%">
-  <a href="https://github.com/gargibhardwaj24/PROJECT_TWO">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gargibhardwaj24&repo=PROJECT_TWO&hide_border=true&title_color=39d353&icon_color=39d353&text_color=c9d1d9&bg_color=0d1117" alt="PROJECT_TWO">
+  <a href="https://github.com/gargibhardwaj24/Sage">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gargibhardwaj24&repo=Sage&hide_border=true&title_color=39d353&icon_color=39d353&text_color=c9d1d9&bg_color=0d1117" alt="Sage">
   </a>
 </td>
 </tr>
 <tr>
 <td width="50%">
-  <a href="https://github.com/gargibhardwaj24/PROJECT_THREE">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gargibhardwaj24&repo=PROJECT_THREE&hide_border=true&title_color=39d353&icon_color=39d353&text_color=c9d1d9&bg_color=0d1117" alt="PROJECT_THREE">
+  <a href="https://github.com/gargibhardwaj24/Socrates">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gargibhardwaj24&repo=Socrates&hide_border=true&title_color=39d353&icon_color=39d353&text_color=c9d1d9&bg_color=0d1117" alt="Socrates">
   </a>
 </td>
 <td width="50%">
-  <a href="https://github.com/gargibhardwaj24/PROJECT_FOUR">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gargibhardwaj24&repo=PROJECT_FOUR&hide_border=true&title_color=39d353&icon_color=39d353&text_color=c9d1d9&bg_color=0d1117" alt="PROJECT_FOUR">
+  <a href="https://github.com/gargibhardwaj24/humanOS">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gargibhardwaj24&repo=humanOS&hide_border=true&title_color=39d353&icon_color=39d353&text_color=c9d1d9&bg_color=0d1117" alt="humanOS">
   </a>
 </td>
 </tr>
@@ -160,11 +161,13 @@ and I solve problems for fun when neither of those is cooperating.
 
 <sub>
 
+<!-- TODO: fill the middle column - one line each on what these actually do -->
 | project | what it is | stack |
 |---|---|---|
-| **[PROJECT_ONE](https://github.com/gargibhardwaj24/PROJECT_ONE)** | one line on what it does | `Python` `PyTorch` |
-| **[PROJECT_TWO](https://github.com/gargibhardwaj24/PROJECT_TWO)** | one line on what it does | `Next.js` `Postgres` |
-| **[PROJECT_THREE](https://github.com/gargibhardwaj24/PROJECT_THREE)** | one line on what it does | `C++` |
+| **[dossier](https://github.com/gargibhardwaj24/dossier)** | ... | `JavaScript` |
+| **[Sage](https://github.com/gargibhardwaj24/Sage)** | ... | `JavaScript` |
+| **[Socrates](https://github.com/gargibhardwaj24/Socrates)** | ... | `TypeScript` |
+| **[humanOS](https://github.com/gargibhardwaj24/humanOS)** | ... | `JavaScript` |
 
 </sub>
 
