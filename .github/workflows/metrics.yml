@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   metrics:
-    if: ${{ secrets.METRICS_TOKEN != '' }}
+    if: secrets.METRICS_TOKEN != ''
     runs-on: ubuntu-latest
     steps:
       # ------------------------------------------------------------------ #
