@@ -13,7 +13,9 @@ permissions:
 
 jobs:
   metrics:
-    if: secrets.METRICS_TOKEN != ''
+    # GitHub Actions does not allow 'secrets' in job-level 'if' conditions.
+    # We check the repository owner to prevent this from failing on forks.
+    if: github.repository_owner == 'thytalha'
     runs-on: ubuntu-latest
     steps:
       # ------------------------------------------------------------------ #
