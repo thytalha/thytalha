@@ -16,22 +16,15 @@ jobs:
     # GitHub Actions does not allow 'secrets' in job-level 'if' conditions.
     # We check the repository owner to prevent this from failing on forks.
     if: github.repository_owner == 'thytalha'
-    env:
-      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
     runs-on: ubuntu-latest
     steps:
-      - name: Skip when METRICS_TOKEN is not configured
-        if: env.METRICS_TOKEN == ''
-        run: echo "::notice::METRICS_TOKEN is not configured. Skipping metrics generation."
-
       # ------------------------------------------------------------------ #
       # The 3D isometric contribution calendar (the one from the inspo)
       # ------------------------------------------------------------------ #
       - name: Isometric contribution calendar
-        if: env.METRICS_TOKEN != ''
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ env.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: "${{ github.repository_owner }}"
           filename: assets/metrics.isocalendar.svg
           base: ""
@@ -43,10 +36,9 @@ jobs:
       # Coding habits: commits per hour of day, per weekday, language activity
       # ------------------------------------------------------------------ #
       - name: Coding habits
-        if: env.METRICS_TOKEN != ''
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ env.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: "${{ github.repository_owner }}"
           filename: assets/metrics.habits.svg
           base: ""
@@ -62,10 +54,9 @@ jobs:
       # Language breakdown (bytes-weighted, recent-activity weighted)
       # ------------------------------------------------------------------ #
       - name: Languages
-        if: env.METRICS_TOKEN != ''
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ env.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: "${{ github.repository_owner }}"
           filename: assets/metrics.languages.svg
           base: ""
@@ -81,10 +72,9 @@ jobs:
       # github-profile-trophy, whose public instance returns 402 (out of quota)
       # ------------------------------------------------------------------ #
       - name: Achievements
-        if: env.METRICS_TOKEN != ''
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ env.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: "${{ github.repository_owner }}"
           filename: assets/metrics.achievements.svg
           base: ""
