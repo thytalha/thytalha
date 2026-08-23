@@ -32,23 +32,7 @@
 
 </div>
 
-## 📊 GitHub Analytics
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&bg_color=00000000&hide_border=true&title_color=ffffff&text_color=c9d1d9&icon_color=ffffff&include_all_commits=true&count_private=true&text_bold=false">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&bg_color=00000000&hide_border=true&title_color=000000&text_color=1f2328&icon_color=000000&include_all_commits=true&count_private=true&text_bold=false">
-    <img width="75%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&bg_color=00000000&hide_border=true&title_color=ffffff&text_color=c9d1d9&icon_color=ffffff&include_all_commits=true&count_private=true&text_bold=false" alt="GitHub Stats" />
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=00000000&hide_border=true&color=ffffff&line=39d353&point=39d353&area=true&v=1">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=00000000&hide_border=true&color=000000&line=1a7f37&point=1a7f37&area=true&v=1">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=00000000&hide_border=true&color=ffffff&line=39d353&point=39d353&area=true&v=1" alt="GitHub Activity Graph" />
-  </picture>
-</div>
 
 ## 🎯 Skill Radar
 

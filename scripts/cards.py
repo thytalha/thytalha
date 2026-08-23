@@ -111,6 +111,9 @@ query($login:String!){
         weeks{ contributionDays{ date contributionCount } }
       }
     }
+    pullRequests(first: 1) { totalCount }
+    issues(first: 1) { totalCount }
+    repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]) { totalCount }
   }
 }
 """
@@ -155,7 +158,22 @@ def fetch_contributions_html(user: str):
         elif i != 0:
             break
             
-    return total, current, longest
+    return total, current, longest, 0, 0, 0
+
+def fetch_total_commits(user: str, token: str | None):
+    """Fetch total commits using the REST Search API."""
+    try:
+        req = urllib.request.Request(
+            f"https://api.github.com/search/commits?q=author:{user}",
+            headers={**UA, "Accept": "application/vnd.github.cloak-preview"}
+        )
+        if token:
+            req.add_header("Authorization", f"Bearer {token}")
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.loads(r.read().decode()).get("total_count", 0)
+    except urllib.error.URLError as e:
+        print(f"  commits scrape failed: {e}", file=sys.stderr)
+        return 0
 
 def fetch_contributions(user: str, token: str | None):
     """Return (total, current_streak, longest_streak) or None if unavailable."""
@@ -189,7 +207,12 @@ def fetch_contributions(user: str, token: str | None):
             current += 1
         elif date != days[-1][0]:
             break
-    return cal["totalContributions"], current, longest
+            
+    prs = data["data"]["user"]["pullRequests"]["totalCount"]
+    issues = data["data"]["user"]["issues"]["totalCount"]
+    contribs_to = data["data"]["user"]["repositoriesContributedTo"]["totalCount"]
+    
+    return cal["totalContributions"], current, longest, prs, issues, contribs_to
 
 
 # --------------------------------------------------------------------------- #
@@ -355,9 +378,15 @@ def main(argv=None):
              ("Followers", f"{user['followers']:,}")]
 
     contrib = fetch_contributions(args.user, token)
+    commits = fetch_total_commits(args.user, token)
+    
     if contrib:
-        total, current, longest = contrib
-        tiles += [("Contributions (1y)", f"{total:,}"),
+        total, current, longest, prs, issues, contribs_to = contrib
+        tiles += [("Total commits", f"{commits:,}"),
+                  ("Total PRs", f"{prs:,}"),
+                  ("Total issues", f"{issues:,}"),
+                  ("Contributed to", f"{contribs_to:,}"),
+                  ("Contributions (1y)", f"{total:,}"),
                   ("Current streak", f"{current:,}"),
                   ("Longest streak", f"{longest:,}")]
     else:
