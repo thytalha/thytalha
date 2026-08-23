@@ -51,7 +51,6 @@ jobs:
         run: |
           python scripts/cards.py \
             --user "${{ github.repository_owner }}" \
-            --projects assets/projects.json \
             --out assets
 
       - name: Commit if changed
