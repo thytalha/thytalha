@@ -36,9 +36,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&bg_color=00000000&hide_border=true&title_color=ffffff&text_color=c9d1d9&icon_color=ffffff&include_all_commits=true&count_private=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&bg_color=00000000&hide_border=true&title_color=000000&text_color=1f2328&icon_color=000000&include_all_commits=true&count_private=true">
-    <img width="75%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&bg_color=00000000&hide_border=true&title_color=ffffff&text_color=c9d1d9&icon_color=ffffff&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&bg_color=00000000&hide_border=true&title_color=ffffff&text_color=c9d1d9&icon_color=ffffff&include_all_commits=true&count_private=true&text_bold=false">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&bg_color=00000000&hide_border=true&title_color=000000&text_color=1f2328&icon_color=000000&include_all_commits=true&count_private=true&text_bold=false">
+    <img width="75%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&bg_color=00000000&hide_border=true&title_color=ffffff&text_color=c9d1d9&icon_color=ffffff&include_all_commits=true&count_private=true&text_bold=false" alt="GitHub Stats" />
   </picture>
 </div>
 
