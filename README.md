@@ -44,9 +44,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=00000000&hide_border=true&color=ffffff&line=ffffff&point=e6edf3&area=true&v=1">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=00000000&hide_border=true&color=000000&line=000000&point=1f2328&area=true&v=1">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=00000000&hide_border=true&color=ffffff&line=ffffff&point=e6edf3&area=true&v=1" alt="GitHub Activity Graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=00000000&hide_border=true&color=ffffff&line=39d353&point=39d353&area=true&v=1">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=00000000&hide_border=true&color=000000&line=1a7f37&point=1a7f37&area=true&v=1">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=00000000&hide_border=true&color=ffffff&line=39d353&point=39d353&area=true&v=1" alt="GitHub Activity Graph" />
   </picture>
 </div>
 
