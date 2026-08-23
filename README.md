@@ -34,9 +34,21 @@
 
 ## 📊 GitHub Analytics
 
-<div align="center"> <img  width="75%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&bg_color=00000000&hide_border=true&title_color=000000&text_color=c9d1d9&icon_color=000000&include_all_commits=true&count_private=true" /> </div>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&bg_color=00000000&hide_border=true&title_color=ffffff&text_color=c9d1d9&icon_color=ffffff&include_all_commits=true&count_private=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&bg_color=00000000&hide_border=true&title_color=000000&text_color=1f2328&icon_color=000000&include_all_commits=true&count_private=true">
+    <img width="75%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=thytalha&show_icons=true&bg_color=00000000&hide_border=true&title_color=ffffff&text_color=c9d1d9&icon_color=ffffff&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  </picture>
+</div>
 
-<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=00000000&hide_border=true&color=000000&line=000000&point=e6edf3&area=true&v=1" alt="GitHub Activity Graph" /> </div>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=00000000&hide_border=true&color=ffffff&line=ffffff&point=e6edf3&area=true&v=1">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=00000000&hide_border=true&color=000000&line=000000&point=1f2328&area=true&v=1">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&bg_color=00000000&hide_border=true&color=ffffff&line=ffffff&point=e6edf3&area=true&v=1" alt="GitHub Activity Graph" />
+  </picture>
+</div>
 
 <div align="center">
 
