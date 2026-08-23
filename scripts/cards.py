@@ -27,6 +27,7 @@ import os
 import sys
 import urllib.error
 import urllib.request
+import re
 from pathlib import Path
 
 UA = {"User-Agent": "cards.py"}
@@ -115,10 +116,51 @@ query($login:String!){
 """
 
 
-def fetch_contributions(user: str, token: str | None):
-    """Return (total, current_streak, longest_streak) or None without a token."""
-    if not token:
+def fetch_contributions_html(user: str):
+    """Scrape the contributions graph from the user's GitHub profile HTML."""
+    try:
+        req = urllib.request.Request(f"https://github.com/users/{user}/contributions", headers=dict(UA))
+        with urllib.request.urlopen(req, timeout=30) as r:
+            html = r.read().decode()
+    except urllib.error.URLError as e:
+        print(f"  contributions scrape failed: {e}", file=sys.stderr)
         return None
+
+    tooltips = re.findall(r'<tool-tip[^>]*>([^<]+)</tool-tip>', html)
+    if not tooltips:
+        return None
+
+    days = []
+    total = 0
+    for text in tooltips:
+        text = text.strip()
+        if text.startswith("No contributions"):
+            days.append(0)
+        else:
+            match = re.search(r'^([\d,]+)\s+contribution', text)
+            if match:
+                count = int(match.group(1).replace(",", ""))
+                total += count
+                days.append(count)
+
+    longest = run = 0
+    for c in days:
+        run = run + 1 if c > 0 else 0
+        longest = max(longest, run)
+
+    current = 0
+    for i, c in enumerate(reversed(days)):
+        if c > 0:
+            current += 1
+        elif i != 0:
+            break
+            
+    return total, current, longest
+
+def fetch_contributions(user: str, token: str | None):
+    """Return (total, current_streak, longest_streak) or None if unavailable."""
+    if not token:
+        return fetch_contributions_html(user)
     try:
         data = graphql(CONTRIB_QUERY, {"login": user}, token)
     except urllib.error.HTTPError as e:
