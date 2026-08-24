@@ -10,7 +10,6 @@
 
 <div align="center">
   <br>
-  <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=c&theme=dark" alt="C" />
     <img src="https://skillicons.dev/icons?i=cpp&theme=dark" alt="C++" />
     <img src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python" />
@@ -23,9 +22,7 @@
     <img src="https://skillicons.dev/icons?i=vim&theme=dark" alt="Vim" />
     <img src="https://skillicons.dev/icons?i=sublime&theme=dark" alt="Sublime" />
     <img src="https://skillicons.dev/icons?i=mysql&theme=dark" alt="MySQL" />
-  </a>
   <br><br>
-  <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=netlify&theme=dark" alt="Netlify" />
     <img src="https://skillicons.dev/icons?i=vercel&theme=dark" alt="Vercel" />
     <img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="Figma" />
@@ -33,7 +30,6 @@
     <img src="https://skillicons.dev/icons?i=vscode&theme=dark" alt="VSCode" />
     <img src="https://skillicons.dev/icons?i=visualstudio&theme=dark" alt="Visual Studio" />
     <img src="https://skillicons.dev/icons?i=dotnet&theme=dark" alt=".NET" />
-  </a>
   <img src="assets/sfml.svg" height="48" alt="SFML" />
   <img src="assets/winforms.svg" height="48" alt="WinForms" />
   <img src="assets/notepad.svg" height="48" alt="Notepad++" />
