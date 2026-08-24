@@ -95,7 +95,7 @@
 
 <br>
 
-<img src="assets/metrics.languages.svg" height="165" alt="most used languages">
+<img src="assets/metrics.languages.svg" width="90%" alt="most used languages">
 
 </div>
 

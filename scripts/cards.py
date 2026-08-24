@@ -375,7 +375,9 @@ def main(argv=None):
 
     tiles = [("Total stars", f"{stars:,}"),
              ("Public repos", f"{user['public_repos']:,}"),
-             ("Followers", f"{user['followers']:,}")]
+             ("Followers", f"{user['followers']:,}"),
+             ("Following", f"{user['following']:,}"),
+             ("Public gists", f"{user['public_gists']:,}")]
 
     contrib = fetch_contributions(args.user, token)
     commits = fetch_total_commits(args.user, token)
