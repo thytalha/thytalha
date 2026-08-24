@@ -31,6 +31,7 @@ jobs:
           config_timezone: Asia/Karachi
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          optimize: no
 
       # ------------------------------------------------------------------ #
       # Coding habits: commits per hour of day, per weekday, language activity
