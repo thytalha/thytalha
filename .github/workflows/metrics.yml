@@ -46,8 +46,10 @@ jobs:
           base: ""
           config_timezone: Asia/Karachi
           plugin_habits: yes
-          plugin_habits_from: 10
+          plugin_habits_from: 200
           plugin_habits_days: 14
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
           use_prebuilt_image: yes
 
       # ------------------------------------------------------------------ #
