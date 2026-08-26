@@ -98,7 +98,7 @@
 
 <br><br>
 
-<img src="assets/metrics.habits.svg?v=1" width="90%" alt="GitHub activity graph" />
+<img src="assets/metrics.habits.svg?v=2" width="90%" alt="GitHub Achievements" />
 
 <br><br>
 
