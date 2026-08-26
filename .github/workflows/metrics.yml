@@ -34,23 +34,7 @@ jobs:
           optimize: no
           use_prebuilt_image: yes
 
-      # ------------------------------------------------------------------ #
-      # Coding habits: commits per hour of day, per weekday, language activity
-      # ------------------------------------------------------------------ #
-      - name: GitHub Activity
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          user: "${{ github.repository_owner }}"
-          filename: assets/metrics.habits.svg
-          base: ""
-          config_timezone: Asia/Karachi
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_lines: yes
-          use_prebuilt_image: yes
+
 
       # ------------------------------------------------------------------ #
       # Language breakdown (bytes-weighted, recent-activity weighted)

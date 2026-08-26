@@ -98,10 +98,6 @@
 
 <br><br>
 
-<img src="assets/metrics.habits.svg?v=3" width="90%" alt="Recent Activity" />
-
-<br><br>
-
 </div>
 
 ---
