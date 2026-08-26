@@ -98,7 +98,7 @@
 
 <br><br>
 
-[![My GitHub Activity Graph](https://my-github-stats-thytalha.vercel.app/graph?username=thytalha&bg_color=transparent&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![My GitHub Activity Graph](https://fabianocouto-activity-graph.vercel.app/graph?username=thytalha&bg_color=transparent&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <br><br>
 
