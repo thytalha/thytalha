@@ -32,6 +32,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           optimize: no
+          use_prebuilt_image: no
 
       # ------------------------------------------------------------------ #
       # Coding habits: commits per hour of day, per weekday, language activity
@@ -50,6 +51,7 @@ jobs:
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugin_habits_trim: yes
+          use_prebuilt_image: no
 
       # ------------------------------------------------------------------ #
       # Language breakdown (bytes-weighted, recent-activity weighted)
@@ -68,4 +70,5 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_languages_indepth: no
           plugin_languages_sections: most-used
+          use_prebuilt_image: no
 
