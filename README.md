@@ -94,11 +94,11 @@
 <div align="center">
 
 <!-- 3D isometric calendar, regenerated every 6h by .github/workflows/metrics.yml -->
-<img src="assets/metrics.isocalendar.svg" width="90%" alt="3D isometric contribution calendar">
+<img src="assets/metrics.isocalendar.svg?v=1" width="90%" alt="3D isometric contribution calendar">
 
 <br><br>
 
-<img src="assets/metrics.habits.svg" width="90%" alt="GitHub activity graph" />
+<img src="assets/metrics.habits.svg?v=1" width="90%" alt="GitHub activity graph" />
 
 <br><br>
 
