@@ -89,6 +89,18 @@
 
 ---
 
+## 📈 My Coding Stats & Habits
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=thytalha&theme=github-dark" width="90%" alt="Recent Activity Graph" />
+
+<br><br>
+
+</div>
+
+---
+
 ## 📅 Contribution Calendar
 
 <div align="center">
