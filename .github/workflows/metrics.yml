@@ -25,6 +25,8 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          committer_branch: main
           user: "${{ github.repository_owner }}"
           filename: assets/metrics.isocalendar.svg
           base: ""
@@ -43,6 +45,8 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          committer_branch: main
           user: "${{ github.repository_owner }}"
           filename: assets/metrics.languages.svg
           base: ""
